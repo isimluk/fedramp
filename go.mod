@@ -1,4 +1,4 @@
-module github.com/gocomply/fedramp
+module github.com/isimluk/fedramp
 
 go 1.13
 
@@ -13,4 +13,7 @@ require (
 	github.com/urfave/cli v1.22.2
 )
 
-replace vbom.ml/util/sortorder => ./vendor/vbom.ml/util/sortorder
+replace (
+	vbom.ml/util/sortorder => ./vendor/vbom.ml/util/sortorder
+	github.com/gocomply/fedramp => github.com/isimluk/fedramp
+)
