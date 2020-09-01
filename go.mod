@@ -12,3 +12,5 @@ require (
 	github.com/opencontrol/doc-template v0.0.0-20190718133209-dc8b9ba59eec
 	github.com/urfave/cli v1.22.2
 )
+
+replace vbom.ml/util/sortorder => ./vendor/vbom.ml/util/sortorder
